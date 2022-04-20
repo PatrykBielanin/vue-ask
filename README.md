@@ -40,7 +40,7 @@ Install vue-ask plugin with npm
 
 import { createApp } from 'vue'
 import App from './App.vue'
-import VueAsk from "VueAsk";
+import VueAsk from "vue-ask";
 
 const app = createApp(App);
 
@@ -85,7 +85,7 @@ app.mount('#app');
 ```javascript
 // /plugins/vue-ask-plugin.js
 
-import { VueAsk } from 'VueAsk'
+import { VueAsk } from 'vue-ask'
 
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.use(VueAsk)
@@ -132,6 +132,8 @@ export default defineNuxtPlugin((nuxtApp) => {
 // styles.css
 
 // Style these classes to get your own theme
+// Light style version from demo you can find here:
+// https://github.com/PatrykBielanin/vue-ask/blob/main/example/styles.css
 
 .vue-ask-modal {}
 

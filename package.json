@@ -7,6 +7,20 @@
   "browser": "./dist/vue-ask.browser.js",
   "unpkg": "./dist/vue-ask.browser.js",
   "license": "MIT",
+  "homepage": "https://github.com/PatrykBielanin/vue-ask",
+  "bugs": {
+     "url": "https://github.com/PatrykBielanin/vue-ask/issues"
+  },
+  "keywords": [
+      "vue-ask",
+      "confirmation",
+      "vue3",
+      "nuxt3",
+      "vue",
+      "nuxt",
+      "ask",
+      "modal"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "rollup -c rollup.config.js",

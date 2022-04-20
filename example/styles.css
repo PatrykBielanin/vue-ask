@@ -1,0 +1,68 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vue-ask-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: RGBA(0,0,0,0.36);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+}
+
+.vue-ask-body {
+    background-color: #FFF;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 2.75rem 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vue-ask-title {
+    font-size: 2rem;
+    font-weight: medium;
+    margin-bottom: 1.5rem;
+}
+
+.vue-ask-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.vue-ask-buttons button {
+    padding: .75rem 1.25rem;
+    color: white;
+    border-radius: 10px;
+    transition: all .2s;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.vue-ask-button-cancel {
+    background-color: #f43f5e;
+}
+
+.vue-ask-button-cancel:hover {
+    background-color: #e11d48;
+}
+
+.vue-ask-button-confirm {
+    background-color: #84cc16;
+}
+
+.vue-ask-button-confirm:hover {
+    background-color: #65a30d;
+}

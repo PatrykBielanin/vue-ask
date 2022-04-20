@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vue-ask</title>
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="../dist/vue-ask.browser.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+
+  </div>
+
+  <script>
+    const App = {
+      template: `
+        vue-ask
+        <VueAsk>
+            <button @click.prevent>
+                Delete item
+            </button>
+        </VueAsk>
+      `,
+    }
+
+    console.log(VueAsk)
+    const app = Vue.createApp(App)
+    app.use(VueAsk)
+    app.mount('#app')
+  </script>
+</body>
+</html>
